@@ -6,4 +6,20 @@ const title = React.createElement(
     'My first react element!'
 );
 
-console.log(title);
+const desc = React.createElement(
+    'p',
+    null,
+    'I just learned how to create a React node and render it into the DOM.'
+);
+
+const header = React.createElement(
+    'header',
+    null,
+    title,
+    desc
+);
+
+ReactDOM.render(
+    header,
+    document.getElementById('root')
+);
