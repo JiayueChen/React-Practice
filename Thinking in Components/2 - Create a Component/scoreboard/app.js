@@ -8,6 +8,7 @@ function Header() {
 }
 
 ReactDOM.render(
+  {/* same name as function */}
   <Header />,
   document.getElementById('root')
 );
